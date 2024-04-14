@@ -17,6 +17,7 @@ public class TraditionalSearch {
         print(animals, new CheckIfHooper());
     }
 
+    //Recebe uma lista de animais e uma interface funcional
     private static void print(ArrayList<Animal> animals, CheckTrait checker) {
         for(Animal animal: animals){
             //Verificação geral
